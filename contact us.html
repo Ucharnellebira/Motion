@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+*{
+    color:black;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://cdn.pixabay.com/photo/2022/08/31/09/56/mountains-7422920_1280.png"); 
+}
+
+header {
+    background-color: grey;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color:grey;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+ .Form{
+        display:flex;
+        flex-direction: column;
+        float: left;
+        border: 10px black;
+        padding: 20px;
+        background-color:#38b464;
+        margin:  auto;
+        height: 75%;
+        justify-items: left;
+        align-content: flex-start;
+        margin-top:100px;
+        }
+        input[type=text], textarea {
+            width: 80%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: none;
+            border-bottom: 2px solid grey;
+        }
+        input[type=text], textarea {
+            width: 80%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: none;
+            border-bottom: 2px solid grey;
+        }
+      iframe{
+        float:right;
+        margin-top: 80px;
+        }
+footer {
+    background-color: grey;
+    padding: 5px 10px;
+    display:flex;
+    position:bottom;
+    width:100%;
+    justify-content:space-between;
+}
+     footer ul li  a{
+            text-decoration:none;
+            list-style:none;
+        }
+    ul   li{
+            text-decoration:none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="Work.html">Work</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+          <form class="Form"> 
+            <h1>Contact Us</h1><br>
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="name" placeholder="Your name.."><br>
+            <label for="email">Your email</label>
+            <input type="text" id="email" name="email" placeholder="Your email.."><br>
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Subject.."><br>
+            <label for="message">Your message (optional)</label>
+            <textarea id="message" name="message" placeholder="Write something.." rows="5" cols="55"></textarea><br><br>
+            <button type="submit" style="width:150px">Submit</button>
+        </form>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15950.338044879516!2d30.089773087158196!3d-1.9173630999999984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca1b826518dd9%3A0x62c6160d41e8f88c!2sKepler%20University!5e0!3m2!1sen!2srw!4v1709379101118!5m2!1sen!2srw" width="600" height="700" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" margin-top="30"></iframe>
+    </main>
+    <footer>
+        <div class="smedia">
+            <ul>
+            <li><a href="https://www.pinterest.charnelle.com/" class="fa fa-pinterest">Pinterest</a></li>
+            <li><a href="https://www.facebook.com/olicha.merchante" class="fa fa-facebook">Facebook</a></li>
+           <li>><a href="https://www.instagram.com/charnelle_twahirwa/" class="fa fa-instagram">Instagram</a></li>
+            </ul>
+        </div>
+        <p>Contact me at charnelle.twahirwa22@keplercollegelac.rw</p>
+        <p style="color:black;">&copy; 2024 Charnelle Twahirwa. All rights reserved.</p>
+    </footer>
+</body>
+</html>
