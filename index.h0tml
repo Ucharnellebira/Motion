@@ -14,7 +14,7 @@
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
-        background-image: url("https://cdn.pixabay.com/photo/2022/08/31/09/56/mountains-7422920_1280.png");     
+        background-color: white;   
     }
 
 header {
@@ -42,21 +42,37 @@ nav a {
     text-decoration: none;
     color: #000;
 }
-        a:hover{
-            color:green;
-            padding:30px;
-        }
+nav img{
+    float: left;
+    max-width:5%;
+}
+a:hover{
+    color:green;
+    padding:30px;
+}
 
 main {
     padding: 20px;
 }
 
 .about-section {
-    background-color: #fff;
-    padding: 20px;
+
     border-radius: 5px;
     display: flex;
     align-items: center;
+    background-color: grey;
+}
+.about-section img{
+    float:left;
+}
+.about-section p{
+    float:right;
+    background-color: white;
+    padding: 20px;
+}
+.about-section p img{
+    max-width: 30%;
+    height:auto;
 }
 
 .profile-image {
@@ -81,26 +97,29 @@ footer {
 <body>
     <header>
         <nav>
+            <img src="C:\Users\Kepler\Downloads\Charnelle MotionFlex Attire.png" alt="">
             <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="About.html">About</a></li>
-                <li><a href="Service.html">Service</a></li>
-                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="Service.html">SERVICE</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
             </ul>
         </nav>
     </header>
     <main>
+        <CENTER><h1>CHARNELLE MOTIONFLEX ATTIRE</h1></CENTER>
         <div class="about-section">
-            <img src="WhatsApp Image 2024-03-04 at 16.37.06 (1).jpeg"  class="profile-image">
+            <img src="C:\Users\Kepler\Downloads\pngegg.png"  class="profile-image">
             <p class="about-text">
-                <b>Charnelle Twahirwa</b><br>
+                <img src="" alt="" style="padding:10px;"><br><br>
+                <b>Embark on Wonder</b><br>
                 Welcome to Charnelle MotionFlex Attire - Where Performance Meets Style!
 
-I'm Charnelle, the CEO and Founder of Charnelle MotionFlex Attire. We're dedicated to helping you unlock your full potential. Whether you're conquering the track, dominating the court, or pushing your limits in the gym, we've got you covered with our premium selection of sportswear and shoes.
+                We're dedicated to helping you unlock your full potential. Whether you're conquering the track, dominating the court, or pushing your limits in the gym, we've got you covered with our premium selection of sportswear and shoes.
 
-At Charnelle MotionFlex Attire, we believe that success starts with the right gear. That's why we've curated a range of products that seamlessly blend performance with style, ensuring you look and feel your best every step of the way.
+                At Charnelle MotionFlex Attire, we believe that success starts with the right gear. That's why we've curated a range of products that seamlessly blend performance with style, ensuring you look and feel your best every step of the way.
 
-Explore our collection and elevate your game with gear that's engineered for success. Join the Charnelle MotionFlex Attire family today and gear up for greatness!</p>
+                Explore our collection and elevate your game with gear that's engineered for success. Join the Charnelle MotionFlex Attire family today and gear up for greatness!</p>
         </div>
         </main>
     <footer>
